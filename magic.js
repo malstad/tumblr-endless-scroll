@@ -216,7 +216,7 @@ var tumblrAutoPager = {
             tAP.pp.appendChild(hr);
             d = document.createElement("div");
             d.className = "tumblrAutoPager_page_info";
-            d.innerHTML = "<p style='float:left'><a href=http://" + tAP.LN + "/page/" + p + "></a></p>" + "<span style='font-size:80%'>Get <a href='http://tumblings.net/post/37900254946/endlessscrollingtumblrcode'>Endless Scrolling Codes</a></span></p><br style='clear:both' />";
+            d.innerHTML = "<p style='float:left'><a href=http://" + tAP.LN + "/page/" + p + "></a></p><br style='clear:both' />";
             tAP.pp.appendChild(d);
             for (var i = 0; i < posts.length; i++) {
                 tAP.pp.appendChild(posts[i]);
